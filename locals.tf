@@ -3,7 +3,7 @@ locals {
   project_id   = "${local.project_name}-${random_string.project_suffix.result}"
 
   keys = {
-    "keyB" = {
+    "keyA" = {
       "purpose"  = "ENCRYPT_DECRYPT"
       "bindings" = {
         "admin" = {
